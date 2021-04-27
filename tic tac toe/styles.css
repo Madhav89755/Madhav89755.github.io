@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+:root{
+    --cell-size: 100px;
+}
+
+#tic_tac_toe{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+#cell1, #cell2, #cell3{
+    border-top-width: 0;    
+}
+
+#cell1, #cell4, #cell7{
+    border-left: 0;    
+}
+
+#cell3, #cell6, #cell9{
+    border-right: 0;    
+}
+
+#cell7, #cell8, #cell9{
+    border-bottom: 0;    
+}
+
+.cell{
+    border-collapse: collapse;
+    border: 2px solid  #0a0a0a;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    font-size: 98px;
+    text-align: center;
+    padding-bottom: 10px;
+}
