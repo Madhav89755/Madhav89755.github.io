@@ -4,6 +4,15 @@ body{
 :root{
     --cell-size: 100px;
 }
+#secret{
+    width: 100vw; 
+    background-color: gray; 
+    text-align: center; 
+    height: 50px; 
+    font-size: 38px; 
+    color: white; 
+    display: contents;
+}
 
 #tic_tac_toe{
     width: 100vw;
