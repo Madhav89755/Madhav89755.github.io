@@ -11,7 +11,7 @@ body{
     height: 50px; 
     font-size: 38px; 
     color: white; 
-    display: contents;
+    display: none;
 }
 
 #tic_tac_toe{
