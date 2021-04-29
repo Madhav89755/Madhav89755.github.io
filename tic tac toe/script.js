@@ -66,41 +66,79 @@ function checkWinner(){
     
     if(position == 'X'){
         window.alert('X Wons the game!!!!!');
+        cellDisable();
+        document.getElementById('secret').style.display='block';
     }
     else{
         if(position == 'O'){
             window.alert('O Wons the game!!!!!');
+            cellDisable();
+            document.getElementById('secret').style.display='block';
         }
         else{
-            window.alert('Its a draw!!!!!!!!!')
+            if(totalMoves==9 && position!='X' && position!='O'){
+                window.alert('Its a draw!!!!!!!')
+                document.getElementById('secret').style.display='block';
+            }
+            else{
+                return false;
+            }
         }
     }
 }
 
+function cellDisable(){
+
+    for (let i = 1; i< 10; i++) {
+        var temp='cell';
+        temp=temp.concat(i);
+        document.getElementById(temp).onclick=null;
+        document.getElementById(temp).style.cursor='not-allowed';
+    }
+}
+
+
 function addSymbolInDiv(elemId){
     if(flag == '0'){
         document.getElementById(elemId).innerText='X';
-        document.getElementById(elemId).style.cursor='';
         flag++;
     }
     else{
         document.getElementById(elemId).innerText='O';
         flag--;
     }
+    document.getElementById(elemId).onclick=null;
+    document.getElementById(elemId).style.cursor='not-allowed';
     console.log('total moves made are:-', totalMoves);
     console.log('last move was made in cell:-', elemId);
     totalMoves=totalMoves+1;
-    if( totalMoves == 9){
-        checkWinner();
+    checkWinner();
+}
+
+function showSymbol(elemId){
+    document.getElementById(elemId).style.color='gray';
+    if(flag == '0'){
+        document.getElementById(elemId).innerText='X';
+        flag++;
+    }
+    else{
+        document.getElementById(elemId).innerText='O';
+        flag--;
     }
 }
 
 function resetGame(){
-    totalMoves=0;
-    var str ='cell';
-    var res;
-    for (let index = 1; index <=9; index++){
-        res=str.concat(index);
-        document.getElementById(res).innerHTML=' ';
-    }
+    // totalMoves=0;
+    // var str ='cell';
+    // var res;
+    // for (let index = 1; index <=9; index++){
+    //     res=str.concat(index);
+    //     document.getElementById(res).innerHTML=' ';
+    // }
+
+    //instead of resetting the values to original just refresh the webpage
+    //it will also do the same thingii
+
+    location.reload();
+    return false;
 }
