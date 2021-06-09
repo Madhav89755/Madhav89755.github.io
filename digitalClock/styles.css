@@ -1,0 +1,31 @@
+
+body{
+    margin: 0;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./Bg01.jpg");
+    background-size: cover;
+}
+
+table{
+    background-color: rgba(1,1,1,0.4);
+    height: 70px;
+    width: 50vw;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+td{
+    padding:30px;
+}
+.Cur_time{
+    border-left: 4px gray;
+    border-left-style: ridge;
+}
