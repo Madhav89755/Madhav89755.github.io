@@ -33,7 +33,7 @@ setInterval(() => {
     dayOfWeek();
 
     monthName = ()=>{
-        switch (dateTime.getMonth()) {
+        switch (1+dateTime.getMonth()) {
             case 01:
                 month = "Janurary";
                 break;
