@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(185, 178, 178, 0.678);
+}
+header {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+#headerDIV {
+  max-width: 1000px;
+}
+
+.contentHeader {
+  padding-top: 2px;
+}
+
+#searchBox {
+  height: 24px;
+  width: 95%;
+  max-width: 235px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: rgba(199, 194, 187, 0.452);
+}
+
+li {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 25px;
+  padding: 1px 0px;
+  background-color: ivory;
+  height: 25px;
+  margin: 0 7px;
+  border-radius: 100px;
+}
