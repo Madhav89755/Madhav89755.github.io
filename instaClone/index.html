@@ -23,9 +23,14 @@
       crossorigin="anonymous"
     ></script>
 
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
     <link rel="stylesheet" href="./styles.css" />
 
-    <title>Document</title>
+    <title>www.instagram.html</title>
   </head>
   <body>
     <header
@@ -83,38 +88,254 @@
         </div>
       </div>
     </header>
-
-    <section class="container-fluid py-4 px-0">
-      <div
-        class="bg-light container px-0"
-        style="
-          width: 600px;
-          height: 900px;
-          display: block;
-          border: 1px solid gray;
-        "
-      >
+<!-- post -->
+    <section
+      class="container-fluid my-4 p-0"
+      style="width: 600px; height: 843px; display: block"
+    >
+      <div class="bg-light container-fluid px-0" style="width: 596px; height: 840px">
+        
+        <!-- profile-pic, username, and three dots -->
         <div
           class="row container bg-light mx-0 pl-0 py-0"
-          style="width: 598px; height: 60px"
+          style="width: auto; height: 60px"
         >
           <div class="col-11 py-2">
-            <ul class="profileThumbnailList py-1 pl-0">
-              <li class="profile profileThumbnail bg-dark pl-0" style="height: 35px; width: 35px; border-radius: 100px;"></li>
+            <ul class="profileThumbnailList py-2 pl-0">
+              <li
+                class="profile profileThumbnail bg-dark pl-0"
+                style="height: 35px; width: 35px; border-radius: 100px"
+              ></li>
               <li class="profile profileName">Sariflog</li>
             </ul>
           </div>
-          <div class="col-1">...</div>
+          <div class="col-1 py-2">
+            <!-- three dots icon -->
+            <span class="glyphicon py-4">&#xe234;</span>
+          </div>
         </div>
-        <div class="bg-success" style="width: 100%; height: 600px;">
-        <div class="row container ml-0 p-0 text-center" style="height: inherit;">
-          <div class="col-2 bg-primary">dfz</div>
-          <div class="col-8 bg-warning"></div>
-          <div class="col-2 bg-secondary"></div>
+
+        <!-- image -->
+        <div class="imageDiv" style="background-image: url('./douglas_bullet.PNG');
+        background-size:cover; background-position: center; width: inherit; height: 600px;">
+          <div
+            class="row container ml-0 p-0 text-center"
+            style="height: inherit; width: inherit"
+          >
+            <div class="col-2"></div>
+            <div class="col-8"></div>
+            <div class="col-2"></div>
+          </div>
         </div>
+
+        <!-- reaction, comment and etc -->
+        <div class="px-3" style="height: 180px">
+          <!-- reaction div -->
+          <div class="container pt-3 px-0 mb-0" style="width: inherit">
+            <ul class="postReactionList pl-0">
+              <li class="postReactionListContent">
+                <!-- favouraite icon -->
+                <i class="material-icons">&#xe87e;</i>
+              </li>
+              <li class="postReactionListContent">
+                <!-- comment icon -->
+                <i class="material-icons"> chat_bubble_outline </i>
+              </li>
+              <li class="postReactionListContent">
+                <!-- share icon -->
+                <i class="material-icons">near_me</i>
+              </li>
+              <li class="postReactionListContent pr-2" style="float: right">
+                <!-- save to archives icon -->
+                <i
+                  class="material-icons"
+                  style="font-size: 30px; font-weight: lighter"
+                  >bookmark_border</i
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- likes div -->
+          <div class="container font-weight-bold pl-0" style="width: inherit">
+            56,979 likes
+          </div>
+          <div
+            class="container font-weight-light text-secondary py-1 pl-0"
+            style="width: inherit; height: 30px; font-size: 13px"
+          >
+            View all 25 comments
+          </div>
+          <div class="commentsDiv container pl-0 px-0 pr-2" style="width: inherit; height: 50px; overflow:auto;">
+            <ul class="pl-0" type="none">
+              <li>
+
+                <strong>instagram_username1</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username2</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username3</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username4</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="
+              container
+              font-weight-light
+              text-secondary text-uppercase
+              pl-0
+              mt-4
+            "
+            style="width: inherit; font-size: 10px"
+          >
+            2 Hours ago
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- post -->
+    <section
+      class="container-fluid my-4 p-0"
+      style="width: 600px; height: 843px; display: block"
+    >
+      <div class="bg-light container-fluid px-0" style="width: 596px; height: 840px">
         
+        <!-- profile-pic, username, and three dots -->
+        <div
+          class="row container bg-light mx-0 pl-0 py-0"
+          style="width: auto; height: 60px"
+        >
+          <div class="col-11 py-2">
+            <ul class="profileThumbnailList py-2 pl-0">
+              <li
+                class="profile profileThumbnail bg-dark pl-0"
+                style="height: 35px; width: 35px; border-radius: 100px"
+              ></li>
+              <li class="profile profileName">Sariflog</li>
+            </ul>
+          </div>
+          <div class="col-1 py-2">
+            <!-- three dots icon -->
+            <span class="glyphicon py-4">&#xe234;</span>
+          </div>
         </div>
-        <div></div>
+
+        <!-- image -->
+        <div class="imageDiv" style="background-image: url('./douglas_bullet.PNG');
+        background-size:cover; background-position: center; width: inherit; height: 600px;">
+          <div
+            class="row container ml-0 p-0 text-center"
+            style="height: inherit; width: inherit"
+          >
+            <div class="col-2"></div>
+            <div class="col-8"></div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+
+        <!-- reaction, comment and etc -->
+        <div class="px-3" style="height: 180px">
+          <!-- reaction div -->
+          <div class="container pt-3 px-0 mb-0" style="width: inherit">
+            <ul class="postReactionList pl-0">
+              <li class="postReactionListContent">
+                <!-- favouraite icon -->
+                <i class="material-icons">&#xe87e;</i>
+              </li>
+              <li class="postReactionListContent">
+                <!-- comment icon -->
+                <i class="material-icons"> chat_bubble_outline </i>
+              </li>
+              <li class="postReactionListContent">
+                <!-- share icon -->
+                <i class="material-icons">near_me</i>
+              </li>
+              <li class="postReactionListContent pr-2" style="float: right">
+                <!-- save to archives icon -->
+                <i
+                  class="material-icons"
+                  style="font-size: 30px; font-weight: lighter"
+                  >bookmark_border</i
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- likes div -->
+          <div class="container font-weight-bold pl-0" style="width: inherit">
+            56,979 likes
+          </div>
+          <div
+            class="container font-weight-light text-secondary py-1 pl-0"
+            style="width: inherit; height: 30px; font-size: 13px"
+          >
+            View all 25 comments
+          </div>
+          <div class="commentsDiv container pl-0 px-0 pr-2" style="width: inherit; height: 50px; overflow:auto;">
+            <ul class="pl-0" type="none">
+              <li>
+
+                <strong>instagram_username1</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username2</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username3</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+              <li>
+                <strong>instagram_username4</strong>
+                here the comment text goes
+                <i class="material-icons" style="font-size: 14px; float: right"
+                  >&#xe87e;</i
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="
+              container
+              font-weight-light
+              text-secondary text-uppercase
+              pl-0
+              mt-4
+            "
+            style="width: inherit; font-size: 10px"
+          >
+            2 Hours ago
+          </div>
+        </div>
       </div>
     </section>
 
