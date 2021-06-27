@@ -40,13 +40,15 @@
     >
       <div
         id="headerDIV"
-        class="row container-fluid bg-light font-weight-bold mx-0 py-3 px-0"
+        class="row container-fluid font-weight-bold mx-0 py-3 px-0"
       >
-        <div class="contentHeader col-4 container text-left pl-4">
-          INSTAGRAM
+        <div class="contentHeader col-3 container text-right">
+          <p class="pr-sm-0 pl-sm-2">INSTAGRAM</p>
         </div>
 
-        <div class="contentHeader col-4 container text-center pl-0">
+        <div
+          class="searchContent contentHeader col-5 container text-right pl-0"
+        >
           <input
             type="text"
             name="search"
@@ -55,25 +57,25 @@
             placeholder="Search"
           />
         </div>
-        <div class="col-sm-4 container text-right pl-1">
-          <ul class="pr-0 pl-2">
-            <li>
+        <div class="col-4 container text-right">
+          <ul class="pr-sm-0 pl-sm-2">
+            <li class="headerList">
               <!-- home icon -->
               <i class="material-icons">home</i>
             </li>
-            <li class="bg-danger">
+            <li class="headerList bg-danger">
               <!-- instagram inbox icon -->
               <i class="fab fa-facebook-messenger"></i>
             </li>
-            <li>
+            <li class="headerList">
               <!-- explore icon -->
               <i class="material-icons">&#xe87a;</i>
             </li>
-            <li>
+            <li class="headerList">
               <!-- favouraite icon -->
               <i class="material-icons">&#xe87e;</i>
             </li>
-            <li>
+            <li class="headerList">
               <!-- profile icon -->
               <i class="material-icons">person_outline</i>
             </li>
@@ -81,6 +83,40 @@
         </div>
       </div>
     </header>
+
+    <section class="container-fluid py-4 px-0">
+      <div
+        class="bg-light container px-0"
+        style="
+          width: 600px;
+          height: 900px;
+          display: block;
+          border: 1px solid gray;
+        "
+      >
+        <div
+          class="row container bg-light mx-0 pl-0 py-0"
+          style="width: 598px; height: 60px"
+        >
+          <div class="col-11 py-2">
+            <ul class="profileThumbnailList py-1 pl-0">
+              <li class="profile profileThumbnail bg-dark pl-0" style="height: 35px; width: 35px; border-radius: 100px;"></li>
+              <li class="profile profileName">Sariflog</li>
+            </ul>
+          </div>
+          <div class="col-1">...</div>
+        </div>
+        <div class="bg-success" style="width: 100%; height: 600px;">
+        <div class="row container ml-0 p-0 text-center" style="height: inherit;">
+          <div class="col-2 bg-primary">dfz</div>
+          <div class="col-8 bg-warning"></div>
+          <div class="col-2 bg-secondary"></div>
+        </div>
+        
+        </div>
+        <div></div>
+      </div>
+    </section>
 
     <script src="./script.js"></script>
   </body>
