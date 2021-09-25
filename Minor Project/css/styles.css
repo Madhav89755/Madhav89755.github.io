@@ -1,0 +1,57 @@
+
+/* for a in heading */
+.header_div h1{
+    width: fit-content;
+    text-decoration: none;
+    transition: transform 2s;
+    color: black;
+}
+
+.header_div h1:hover{
+    transform: scale(1.2);
+}
+
+.header_div h1 a{
+    text-decoration: none;
+    color: rgb(70, 58, 58);
+}
+
+.header_div h1 a:hover{
+    color: green;
+}
+
+
+/* to bold the text in .header_div_p_span */
+.header_div_p_span{
+    font-weight: bold;
+}
+
+/* properties for ul and li in header tag */
+.header_navbar_ul,.header_navbar_ul li{
+    display: inline-block;
+    padding:0px 10px;
+    font-weight: bold;
+}
+
+/* for a inside li inside header */
+.header_navbar_ul li a{
+    width: 15%;
+    transition: transform .3s;
+    color: green;
+    text-decoration: none;
+}
+
+.header_navbar_ul li:hover, .header_navbar_ul li a:hover{                
+    color: black;
+    transform: scale(1.2);
+}
+
+button{
+    width: 100px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
