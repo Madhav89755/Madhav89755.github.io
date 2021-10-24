@@ -1,0 +1,132 @@
+/* for body tag */
+
+body {
+  background-color: rgb(211, 203, 203);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* for div containing website name and catchphrase */
+
+.header_div {
+  background-color: rgba(251, 251, 251, 0.589);
+  border-radius: 25px;
+}
+
+.header_text {
+  font-weight: bold;
+}
+
+.header_div_logo {
+  padding: 5px;
+  background-color: rgba(213, 211, 214, 0.712);
+  border: 8px double white;
+  border-radius: 100px;
+}
+
+.image_logo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: inherit;
+}
+
+.header_div h1 a {
+  text-decoration: none;
+  font-family: "Comic Sans MS", "Bradley Hand ITC", Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* to bold the text in .header_div_p_span */
+.header_div_p_span {
+  font-weight: bolder;
+}
+
+/* properties for ul and li in header tag */
+.header_navbar_ul li {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px;
+  width: fit-content;
+  font-weight: bold;
+}
+
+/* for a inside li inside header */
+.header_navbar_ul li a {
+  border-radius: 5px;
+  background-color: rgba(198, 209, 36, 0.739);
+  transition: transform 0.3s;
+  margin: 3px;
+  color: rgb(5, 42, 2);
+  text-decoration: none;
+  padding: 0px 5px;
+}
+
+.header_navbar_ul li:hover,
+.header_navbar_ul li a:hover {
+  transform: scale(1.2);
+}
+
+.header_navbar_ul li a:hover {
+  color: black;
+  background-color: rgba(54, 180, 54, 0.904);
+}
+
+/* for form tag */
+
+label {
+  width: 120px;
+}
+label,
+input {
+  margin-top: 15px;
+}
+input {
+  width: 275px;
+}
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+  width: 100px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* for footer */
+
+.footer_navbar_ul {
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 25px;
+}
+
+/* properties for ul and li in header tag */
+.footer_navbar_ul li {
+  display: block;
+  margin: 0px 5px;
+}
+
+/* for a inside li inside header */
+.footer_navbar_ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer_navbar_ul li a:hover {
+  color: rgb(216, 83, 6);
+}
