@@ -1,2 +1,10 @@
 # Madhav89755.github.io
-This is my github profile and I am trying to figure out README.md files.
+You have accesssed my Public Repository on github Page:
+
+Following are some of my early projects that you can visit:
+
+1. Tic Tac Toe
+2. Digital Clock
+3. Feedback Page
+
+Hope you like it.
