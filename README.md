@@ -8,3 +8,5 @@ Following are some of my early projects that you can visit:
 3. <a href="https://madhav89755.github.io/HB_FEEDBACK/Index.html">Feedback Page</a>
 
 Hope you like it.
+
+If you want to visit my github profile, <a href="https://github.com/Madhav89755">Click here</a>.
