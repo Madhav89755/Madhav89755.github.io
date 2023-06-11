@@ -1,10 +1,14 @@
 setInterval(() => {
     let dateTime = new Date();
-    hour = dateTime.getHours();
-    minute = dateTime.getMinutes();
-    second = dateTime.getSeconds();
-    dayOfWeek = ()=>{ 
+    let day = ''
+    let hour = dateTime.getHours();
+    let minute = dateTime.getMinutes();
+    let second = dateTime.getSeconds();
+    let dayOfWeek = ()=>{ 
         switch (dateTime.getDay()) {
+            case 0:
+                day = "Sunday"
+                break;
             case 1:
                 day = "Monday"
                 break;
@@ -22,9 +26,6 @@ setInterval(() => {
                 break;
             case 6:
                 day = "Saturday"
-                break;
-            case 7:
-                day = "Sunday"
                 break;
             default:
             break;
