@@ -1,0 +1,42 @@
+
+/*text inside sub-container*/
+.content{
+	margin-left: 50px;	
+	padding-top: 240px;
+	position: absolute;
+}
+/*button made by anchor tag inside sub-container*/
+.button{
+	display: block;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	padding-top: 18px;
+	text-align: center;
+	border: 2px solid white;
+	margin-top: 70px;
+	transition: background-color 0.1s;
+}
+.button{
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.1s;
+}
+.button:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+
+/*text with large font size*/
+.hFNT{
+	font-size: 40px;
+	font-weight: bold;
+}
+/*text with small font size*/
+.lFNT{	font-size: 20px;}
+
+video{
+	z-index: -1;
+	object-fit: cover;
+	position: relative;
+}

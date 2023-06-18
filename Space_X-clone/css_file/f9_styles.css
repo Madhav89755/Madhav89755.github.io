@@ -1,0 +1,64 @@
+
+/* oroperties for table 1*/
+#tbl1{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+#tbl1 th,#tbl1 td{
+    padding-left: 180px;
+    text-transform: uppercase;
+}
+#tbl1 th{			font-size: 150px;		}
+#tbl1 td{			font-size: 20px;		}
+
+/*properties for table 2*/
+.tbl2{
+    margin-top: 50px;
+    font-size: 14px;
+    width: 550px;
+}
+.tbl2 tr th{
+    border-bottom: 1px solid gray;
+    text-align: left;
+    text-transform: uppercase;
+}
+.tbl2 tr td{
+    border-bottom: 1px solid gray;
+    text-align: right;
+}
+.tbl2 tr{
+    border-bottom: 1px solid gray;
+    height: 60px;
+}
+.tbl2 td span{
+    color: gray;
+}
+
+/*properties for slideshow bullets*/
+#slideshow{
+    float: right;
+    color: white;
+    margin-left: 550px;
+}
+#slideshow li{
+    float: left;
+    padding-left: 10px;
+    font-size: 40px;
+}
+#slideshow a:link, #slideshow a:visited{
+    color: gray;
+}
+#slideshow a:link, #slideshow a:visited{
+    color: gray;
+}
+
+/*anchor tags*/
+.engineLink, .over{
+    margin: 30px 0px 30px 0px;
+    height: 0px;
+    display: inline-block;
+}
+.engineLink:hover, .over:hover{
+    color: white;
+    text-decoration: none;
+}
