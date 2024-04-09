@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Madhav Sharma</h1>
 <h3 align="center">A passionate Python Full Stack Developer from India</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=madhav89755" alt="madhav89755" /></a> </p>
-
 - 🔭 I’m currently working on [Lendpartnerz](https://lendpartnerz.com/)
 
 - 🌱 I’m currently learning **AWS Amplify, React**
@@ -30,9 +28,10 @@
 
 Following are some of my early projects that you can visit:
 
-1. <a href="https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html">Tic Tac Toe</a>
-2. <a href="https://madhav89755.github.io/digitalClock/index.html">Digital Clock</a>
-3. <a href="https://madhav89755.github.io/Space_X-clone/home.html">SpaceX Clone</a>
-4. <a href="https://madhav89755.github.io/HB_FEEDBACK/Index.html">Feedback Page</a>
+1. <a href="https://expense-a2ve.onrender.com/">Daily Expenses</a>
+2. <a href="https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html">Tic Tac Toe</a>
+3. <a href="https://madhav89755.github.io/digitalClock/index.html">Digital Clock</a>
+4. <a href="https://madhav89755.github.io/Space_X-clone/home.html">SpaceX Clone</a>
+5. <a href="https://madhav89755.github.io/HB_FEEDBACK/Index.html">Feedback Page</a>
 
 Hope you like it.
