@@ -1,13 +1,14 @@
 <h1 align="center">Hi 👋, I'm Madhav Sharma</h1>
 <h3 align="center">A passionate Python Full Stack Developer from India</h3>
 
-- 🔭 I’m currently working on [Lendpartnerz](https://lendpartnerz.com/)
 
-- 🌱 I’m currently learning **AWS Amplify, React**
+- 🔭 I’m currently working on [InspironLabs](https://www.inspironlabs.com/)
 
-- 👯 Play Tic Tac Toe with friends [https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html](https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html)
+- 🌱 I’m currently learning **NodeJS, ExpressJS**
 
-- 💬 Ask me about **Python, Django, Django Rest Framework**
+- 👯 Play [Tic Tac Toe](https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html) with friends
+
+- 💬 Ask me about **Python, Django, Flask, Django Rest Framework**
 
 - 📫 How to reach me **madhav.sharma2002.12@gmail.com**
 
@@ -25,13 +26,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=madhav89755&show_icons=true&locale=en" alt="madhav89755" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=madhav89755&" alt="madhav89755" /></p>
-
-Following are some of my early projects that you can visit:
-
-1. <a href="https://expense-a2ve.onrender.com/">Daily Expenses</a>
-2. <a href="https://madhav89755.github.io/tic%20tac%20toe/ticTacToe.html">Tic Tac Toe</a>
-3. <a href="https://madhav89755.github.io/digitalClock/index.html">Digital Clock</a>
-4. <a href="https://madhav89755.github.io/Space_X-clone/home.html">SpaceX Clone</a>
-5. <a href="https://madhav89755.github.io/HB_FEEDBACK/Index.html">Feedback Page</a>
-
-Hope you like it.
